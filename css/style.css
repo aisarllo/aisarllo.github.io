@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+}
+body {
+	background-color: #d9f9a5;
+}
+
+/* NAVIGATION BAR */
+header {
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: #D9F9A5;
+	background-color: #5E3023;
+	width: 100%;
+	height: 50px;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+.navlink {
+	padding: 7px 15px;
+	margin-right: 20px;
+	color: #5E3023;
+	background-color: #D9F9A5;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 70px;
+}
+.navlink:hover {
+	color: #5E3023;
+	background-color: #954B37;
+}
+#home-icon {
+	padding: 0 20px;
+	font-size: 1.3em;
+	color: #D9F9A5;
+}
+#home-icon:hover {
+	color: #954B37;
+	transition: 0.5s;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+}
+
+/* HOME PAGE */
+#home-section {
+	position: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #D9F9A5;
+	width: 100%;
+	background-image: url('https://svgshare.com/i/enL.svg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.contact-link {
+	margin: 30px 15px;
+	font-size: 1.9em;
+	color: #D9F9A5;
+}
+.contact-link:hover {
+	color: #954B37;
+}
+
+/* media queries */
+@media screen and (max-width: 490px) {
+	#home-section {
+		height: 110vh;
+	}
+	.contact-link {
+		font-size: 1.5em;
+		margin: 10px 8px 50px 8px;
+	}
+	h3 {
+		font-size: 1em;
+		margin-bottom: 10px;
+	}
+	#description {
+		font-size: 1em;
+		margin-bottom: 10px;
+	}
+	#title {
+		font-size: 2em;
+		margin: 10px 40px;
+	}
+	#arrow {
+		display: none;
+	}
+	#portfolio-title {
+		margin-top: 0;
+	}
+}
+
+/* textos */
+#title {
+	font-size: 3em;
+	margin: 20px 40px;
+}
+#description {
+	font-size: 1.1em;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0 40px 40px 40px;
+}
+h3 {
+	font-size: 1.8em;
+	margin: 0 40px 20px 40px;
+}
+#arrow {
+	font-size: 2em;
+	color: #D9F9A5;
+	margin: 30px 40px 0 50px;
+	animation: updown 2s ease infinite;
+}
+@keyframes updown {
+	0% {transform: translateY(-30%);}
+	50% {transform: translateY(30%);}
+	100% {transform: translateY(-30%);}
+}
+
+/* PROJECTS PAGE */
+#projects-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	padding-bottom: 100px;
+	height: auto;
+	background-color: #D9F9A5;
+	color: #5E3023;
+	background-color: #d9f9a5;
+}
+#portfolio-title {
+	margin: 3em 40px;
+}
+#submit {
+	background-color: #5E3023;
+	color: #D9F9A5;
+	font-size: 1.3em;
+	text-decoration: none;
+	margin: 0 40px 0px 40px;
+	padding: 10px 25px;
+	border-radius: 50px;
+}
+#submit:hover {
+	background-color: #954B37;
+}
+
+/* grid */
+#portfolio-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1.5rem;
+	width: 90%;
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-bottom: 5rem;
+}
+.project-image {
+	height: calc(100% - 2rem);
+	width: 100%;
+	object-fit: cover;
+	border-radius: 20px 20px 0 0;
+}
+.project-tile {
+	display: block;
+	background: #5E3023;
+	color: #D9F9A5;
+	border-radius: 20px;
+	padding: 0 0 0.5em 0;
+	text-decoration: none;
+}
+.project-tile:hover {
+	background-color: #954B37;
+}
+.project-name {
+	font-size: 1rem;
+	padding: 0.6rem 0.5rem;
+}
+
+/* FOOTER */
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 20px;
+	background-color: #5e3023;
+}
+.wave {
+	background: #d9f9a5 url('https://i.postimg.cc/nrtwbfsd/wave.png');
+	width: 100%;
+	height: 150px;
+}
+#footer-text {
+	font-size: 1em;
+	color: #d9f9a5;
+	margin: 7.5rem 40px 15px 40px;
+}
