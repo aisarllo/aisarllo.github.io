@@ -84,31 +84,6 @@ ul {
 
 /* media queries */
 @media screen and (max-width: 490px) {
-	#home-section {
-		height: 110vh;
-	}
-	.contact-link {
-		font-size: 1.5em;
-		margin: 10px 8px 50px 8px;
-	}
-	h3 {
-		font-size: 1em;
-		margin-bottom: 10px;
-	}
-	#description {
-		font-size: 1em;
-		margin-bottom: 10px;
-	}
-	#title {
-		font-size: 2em;
-		margin: 10px 40px;
-	}
-	#arrow {
-		display: none;
-	}
-	#portfolio-title {
-		margin-top: 0;
-	}
 }
 
 /* textos */
