@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: 'Lexend', sans-serif;
+	text-align: center;
+}
+body {
+	background-color: #000000;
+}
+
+/* HOME PAGE */
+#home-section {
+	position: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+	width: 100%;
+	background-image: url('https://svgshare.com/i/16hT.svg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.contact-link {
+	margin: 30px 15px;
+	font-size: 1.9em;
+	color: #000000;
+}
+.contact-link:hover {
+	color: #222222;
+}
+
+/* media queries */
+@media screen and (max-width: 490px) {
+	/* under construction */
+}
+
+/* textos */
+#title {
+	font-size: 2.9em;
+	font-family: 'Lexend', sans-serif;
+	margin: 20px 40px;
+}
+#description {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: 'Lexend', sans-serif;
+	margin: 0 40px 40px 40px;
+}
+h3 {
+	font-size: 1.8em;
+	font-family: 'Lexend', sans-serif;
+	margin: 0 40px 20px 40px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	display: inline;
+	margin: -0.6em;
+	padding: 0;
+}
