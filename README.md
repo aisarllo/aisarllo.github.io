@@ -4,6 +4,4 @@
 > ![GitHub](https://img.shields.io/github/languages/code-size/aisarllo/aisarllo.github.io)
 > ![GitHub](https://img.shields.io/github/license/aisarllo/aisarllo.github.io)
 
-This is a simple static webpage created with only CSS and HTML. It works as a presentation page, and it has links to social media and other projects.
-
-I'm currently working on perfecting its responsiveness.
+This is a simple basic webpage built using CSS and HTML. The goal is to create a presentation page. It isn’t responsive yet.
