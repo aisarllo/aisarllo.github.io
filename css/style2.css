@@ -21,9 +21,9 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: #000000;
+	color: #84994F;
 	width: 100%;
-	background-image: url('https://svgshare.com/i/16hT.svg');
+	background-image: url(css/green_gradient_bg.svg);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
